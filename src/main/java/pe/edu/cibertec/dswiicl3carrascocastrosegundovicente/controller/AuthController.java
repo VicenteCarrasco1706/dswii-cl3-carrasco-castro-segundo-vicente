@@ -26,6 +26,9 @@ import java.util.stream.Collectors;
 @RequestMapping(path = "api/v1/auth")
 public class AuthController {
 
+
+
+
     private DetalleUsuarioService detalleUsuarioService;
     private AuthenticationManager authenticationManager;
 
